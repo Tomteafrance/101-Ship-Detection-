@@ -22,8 +22,12 @@ scene id: The unique identifier of the PlanetScope visual scene the image chip w
 
 The "ship" class includes 1000 images. Images in this class are near-centered on the body of a single ship. Ships of different sizes, orientations, and atmospheric collection conditions are included. Example images from this class are shown below.
 
-<p align="center"><img width="60%" src="ship.png" /></p>
+<p align="center"><img width="100%" src="ship.png" /></p>
 
 The "no-ship" class includes 3000 images. A third of these are a random sampling of different landcover features - water, vegetion, bare earth, buildings, etc. - that do not include any portion of an ship. The next third are "partial ships" that contain only a portion of an ship, but not enough to meet the full definition of the "ship" class. The last third are images that have previously been mislabeled by machine learning models, typically caused by bright pixels or strong linear features. Example images from this class are shown below.
 
-<p align="center"><img width="60%" src="noship.png" /></p>
+<p align="center"><img width="100%" src="noship.png" /></p>
+
+## Acknowledgements
+
+Satellite imagery used to build this dataset is made available through Planet's **Open California** dataset, which is **openly licensed**. As such, this dataset is also available under the same CC-BY-SA license. Users can sign up for a free Planet account to search, view, and download thier imagery and gain access to their API.
